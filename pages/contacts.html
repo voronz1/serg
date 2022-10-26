@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <title>Контакты - Сайт группы</title>       
+        <link rel="stylesheet" href="../css/style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googlreapis.com/css2?family=Roboto:ital,wight@0,400;0,700;1,1400&display=swap" rel="stylesheet">  
+       <script defer src="../js/login-popup.js"></script>    
+    </head>
+
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="../img/Logo.svg"  alt="Логотип">
+        <ul class="site-menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link" href="sergey.html">Сергей</a></li>
+            <li><a class="menu-link" href="students.html">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link active-link" href="#">Контакты</a></li>            
+        </ul>  
+        <a class="login-button" href="login.html">Войти</a>   
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="#" method="GET">
+                <input class="login-input" name="login" type="email" placeholder="Логин" required="">
+                <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>         
+    </header>
+    <main class="main main-contacts">
+        <h1 class="main-heading contacts-heading">Как нас найти &#128214;</h1>
+        <div class="contacts-maps" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/18/petrozavodsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Петрозаводск</a><a href="https://yandex.ru/maps/18/petrozavodsk/house/prospekt_lenina_22a/Z00YdQJpTEADQFhrfXt5eH5qZg==/inside/?from=mapframe&ll=34.359553%2C61.789292&tab=inside&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Организации внутри Проспект Ленина, 22А — Яндекс Карты</a><iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/-/CCUZuBCKWD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <h2 class="contacts-text-heading">Наши контакты</h2>
+        <address class="contacts-address"> 
+            <p>185035, Реcпублика Карелия, г. Петрозаводск, пр-кт Ленина, д. 22а / ул. Ф. Энгельса, д. 8</p> 
+            <a class="contacts-tel" href="tel:+79004611287">Тел: +7 (900) 461-12-87</a>
+        </address> 
+    </main>
+    <footer class="footer">
+        <p class="copiwrite">2022 &copy; <a class="inoop-link" href="https://innopolis.com/">Иннополис</a></p>
+    </footer>
+</body>
+</html>
